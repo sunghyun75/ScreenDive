@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+    gap: 50px;
+    overflow-x: scroll;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+
+.container p{
+    margin-top: 10px;
+    
+}
+.card {
+    background-color: #e2e2e2;
+    padding: 1.15rem;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    background-color: #bcd1fd;
+}
+.header h3 {
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 50px;
+
+}
+
+.header {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+.container img {
+    border-radius: 12px;
+}
