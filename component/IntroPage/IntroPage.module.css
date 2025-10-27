@@ -74,3 +74,10 @@ color: #fff;
         transform: translateX(0%);
     }
 }
+
+
+@media (width < 600px) {
+    .container p{
+        font-size: 1.25rem;
+    }
+}

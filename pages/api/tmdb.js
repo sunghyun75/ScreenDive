@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export default async function handler(req, res) {
-	const { category = popular } = req.query;
+	const { category = 'popular' } = req.query;
 	const options = {
 		method: 'GET',
 		url: `https://api.themoviedb.org/3/movie/${category}`,
