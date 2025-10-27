@@ -1,7 +1,7 @@
 import axios from 'axios';
 import Image from 'next/image';
 import React, { useEffect, useRef, useState } from 'react';
-import styles from '@/component/MovieList/MovieList.module.css';
+import styles from './MovieList.module.css';
 import Link from 'next/link';
 import MovieHeader from './MovieHeader';
 import UpcomingMovieList from './UpcomingMovieList';

@@ -1,4 +1,28 @@
 .container {
     margin-top: 50px;
     text-align: center;
+
+}
+
+.header a {
+    position: relative
+}
+
+.header a:first-child {
+    margin-right: 50px;
+}
+
+.header a::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: -4px;
+    left: 0;
+    background-color: #1d4ed8;
+    transition: all 0.3s ease;
+}
+
+.header a:hover::after {
+    width: 100%;
 }

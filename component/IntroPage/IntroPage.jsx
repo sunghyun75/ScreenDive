@@ -53,11 +53,11 @@ export default function IntroPage() {
 	return (
 		<div className={styles.container}>
 			<div className={styles.content}>
-				{posters.map(poster => (
-					<div key={poster.id}>
+				{posters.map((poster, index) => (
+					<div key={index}>
 						<Image
 							src={`https://image.tmdb.org/t/p/w500/${poster}`}
-							alt={poster.name}
+							alt="poster"
 							width={200}
 							height={200}
 						></Image>

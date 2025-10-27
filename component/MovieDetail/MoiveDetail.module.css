@@ -16,3 +16,50 @@ margin-left: 30px;
     grid-template-columns: repeat(2 ,1fr);
     line-height: 30px;
 }
+
+.container button {
+    display: flex;
+    text-decoration: none;
+    border-style: none;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 1.25rem;
+}
+
+.container button:hover {
+    background-color: #d6d6d6;
+}
+
+.imageBox {
+  position: relative;
+  width: 592px;
+  height: 333px;
+}
+
+.image {
+  object-fit: cover;
+  border-radius: 10px;
+}
+@media (max-width: 600px)
+{ 
+    .container { 
+         font-size: 0.8rem;
+
+    }   
+        .container p{ 
+            display: flex;
+         flex-wrap: nowrap;
+         margin-right: 2rem;
+    }   
+
+    .imageBox {
+        width: 300px;
+        height: 180px;
+    }
+
+
+    
+}

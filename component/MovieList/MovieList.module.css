@@ -16,14 +16,17 @@
     
 }
 .card {
-    background-color: #e2e2e2;
-    padding: 1.15rem;
+    display: grid;
+ grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));;
+    height: 120%;
+    background-color: #ffffff;
+    padding: 1.25rem;
     border-radius: 12px;
     transition: all 0.3s ease;
 }
 
 .card:hover {
-    background-color: #bcd1fd;
+    background-color: #e4e4e4;
 }
 .header h3 {
     text-align: left;
@@ -41,4 +44,19 @@
 
 .container img {
     border-radius: 12px;
+}
+
+@media (width < 600px)
+{ 
+    .card{
+        background-color: #fff;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    
+    }
+
+    .card:hover {
+        background-color: #fff;
+    }
 }
