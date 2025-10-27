@@ -1,8 +1,9 @@
  ScreenDive
 
+  https://screendive.vercel.app/
+  
   현재 상영 중인 영화, 화제작, 인기작을 한 눈에 보고 맘에 드는 영화를 담아보자!
   
-https://screendive.vercel.app/
 
 1. 개발 기간
 
